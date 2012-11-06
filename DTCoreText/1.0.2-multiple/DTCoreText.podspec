@@ -1,9 +1,9 @@
 Pod::Spec.new do |spec|
   spec.name         = 'DTCoreText'
-  spec.version      = '1.0.2-multiple'
+  spec.version      = '1.0.2.multiple'
   spec.platform     = :ios
   spec.license      = 'BSD'
-  spec.source       = { :git => 'https://github.com/beingenious/DTCoreText.git', :tag => '1.0.2' }
+  spec.source       = { :git => 'https://github.com/beingenious/DTCoreText.git', :tag => '1.0.2.multiple' }
   spec.source_files = 'Core/Source/*.{h,m,c}'
   spec.frameworks   = 'MediaPlayer', 'QuartzCore', 'CoreText', 'CoreGraphics', 'ImageIO'
   spec.requires_arc = true
